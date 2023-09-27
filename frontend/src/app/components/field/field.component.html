@@ -1,0 +1,19 @@
+<label class="w-100 mb-2 primary-color">
+  {{ label }}
+</label>
+<textarea
+  *ngIf="multiLine"
+  class="w-100 mb-4 px-3 py-2 primary-color secondary-bg-color primary-shadow primary-radius primary-border"
+  style="height: 200px;"
+  [placeholder]="placeholder"
+  [value]="defaultValue"
+  (change)="change($event)"
+></textarea>
+<input
+  *ngIf="!multiLine"
+  class="w-100 mb-4 px-3 py-2 primary-color secondary-bg-color primary-shadow primary-radius primary-border"
+  [type]="type"
+  [placeholder]="placeholder"
+  [value]="defaultValue"
+  (change)="change($event)"
+/>

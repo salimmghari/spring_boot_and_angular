@@ -1,0 +1,21 @@
+<form class="w-100 p-5 secondary-bg-color primary-radius primary-border primary-shadow">
+    <app-title [title]="title" />
+    <app-field 
+        *ngFor="let field of fields; let index = index" 
+        class="w-100"
+        [label]="field.label" 
+        [type]="field.type" 
+        [placeholder]="field.placeholder" 
+        [onChange]="onChange(field.onChange)" 
+    />
+    <app-link 
+        class="w-100"
+        [link]="link" 
+        [onClick]="onLinkClick"
+    />
+    <app-button 
+        class="w-100"
+        [title]="title" 
+        [onClick]="onClick" 
+    />
+</form>
