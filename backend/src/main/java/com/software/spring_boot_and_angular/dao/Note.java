@@ -1,4 +1,4 @@
-package com.app.spring_boot_and_angular.dao;
+package com.software.spring_boot_and_angular.dao;
 
 import java.util.Objects;
 import javax.persistence.Entity;
@@ -7,7 +7,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.JoinColumn;
-import com.app.spring_boot_and_angular.dao.User;
+import com.software.spring_boot_and_angular.dao.User;
 
 
 @Entity

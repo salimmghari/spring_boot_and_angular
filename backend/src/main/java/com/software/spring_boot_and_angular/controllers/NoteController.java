@@ -1,4 +1,4 @@
-package com.app.spring_boot_and_angular.controllers;
+package com.software.spring_boot_and_angular.controllers;
 
 import java.util.List;
 import java.util.Optional;
@@ -14,8 +14,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.http.HttpStatus;
 import org.springframework.beans.factory.annotation.Autowired;
 import javax.servlet.http.HttpServletRequest;
-import com.app.spring_boot_and_angular.dao.Note;
-import com.app.spring_boot_and_angular.services.NoteService;
+import com.software.spring_boot_and_angular.dao.Note;
+import com.software.spring_boot_and_angular.services.NoteService;
 
 
 @CrossOrigin(origins="http://localhost:4200", allowedHeaders={"Authorization", "Origin", "Content-Type", "Accept"})

@@ -1,4 +1,4 @@
-package com.app.spring_boot_and_angular.controllers;
+package com.software.spring_boot_and_angular.controllers;
 
 import java.util.HashMap;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,8 +10,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.beans.factory.annotation.Autowired;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import com.app.spring_boot_and_angular.dao.User;
-import com.app.spring_boot_and_angular.services.UserService;
+import com.software.spring_boot_and_angular.dao.User;
+import com.software.spring_boot_and_angular.services.UserService;
 
 
 @CrossOrigin(origins="http://localhost:4200", allowedHeaders={"Authorization", "Origin", "Content-Type", "Accept"})

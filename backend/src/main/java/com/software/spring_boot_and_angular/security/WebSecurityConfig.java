@@ -1,4 +1,4 @@
-package com.app.spring_boot_and_angular.security;
+package com.software.spring_boot_and_angular.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

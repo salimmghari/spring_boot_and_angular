@@ -1,11 +1,11 @@
-package com.app.spring_boot_and_angular.services;
+package com.software.spring_boot_and_angular.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import com.app.spring_boot_and_angular.security.JwtTokenProvider;
-import com.app.spring_boot_and_angular.dao.UserRepository;
-import com.app.spring_boot_and_angular.dao.User;
+import com.software.spring_boot_and_angular.security.JwtTokenProvider;
+import com.software.spring_boot_and_angular.dao.UserRepository;
+import com.software.spring_boot_and_angular.dao.User;
 
 
 @Service

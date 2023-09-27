@@ -1,4 +1,4 @@
-package com.app.spring_boot_and_angular.dao;
+package com.software.spring_boot_and_angular.dao;
 
 import java.util.Objects;
 import javax.persistence.Entity;

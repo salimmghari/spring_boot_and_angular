@@ -1,14 +1,14 @@
-package com.app.spring_boot_and_angular.services;
+package com.software.spring_boot_and_angular.services;
 
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.app.spring_boot_and_angular.security.JwtTokenProvider;
-import com.app.spring_boot_and_angular.dao.NoteRepository;
-import com.app.spring_boot_and_angular.dao.UserRepository;
-import com.app.spring_boot_and_angular.dao.Note;
-import com.app.spring_boot_and_angular.dao.User;
+import com.software.spring_boot_and_angular.security.JwtTokenProvider;
+import com.software.spring_boot_and_angular.dao.NoteRepository;
+import com.software.spring_boot_and_angular.dao.UserRepository;
+import com.software.spring_boot_and_angular.dao.Note;
+import com.software.spring_boot_and_angular.dao.User;
 
 
 @Service
