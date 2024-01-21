@@ -11,7 +11,7 @@
 	<groupId>com.app</groupId>
 	<artifactId>spring_boot_and_angular</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>users</name>
+	<name>Spring Boot and Angular</name>
 	<description>Web software</description>
 	<properties>
 		<java.version>17</java.version>
