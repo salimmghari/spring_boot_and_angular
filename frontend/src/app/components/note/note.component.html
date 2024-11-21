@@ -1,0 +1,39 @@
+<div class="w-100 mb-5 p-5 secondary-bg-color primary-radius primary-border primary-shadow">
+    <app-field 
+        class="w-100"
+        label="Title:" 
+        type="text" 
+        placeholder="The title" 
+        [defaultValue]="title" 
+        [onChange]="onTitleChange" 
+    />
+    <app-field 
+        class="w-100"
+        label="Body:" 
+        placeholder="The body" 
+        [defaultValue]="body" 
+        [onChange]="onBodyChange" 
+        [multiLine]="true" 
+    />
+    <app-button 
+        class="w-100"
+        *ngIf="onCreate" 
+        className="success-bg-color" 
+        title="Create" 
+        [onClick]="onCreate" 
+    />
+    <app-button 
+        class="w-100"
+        *ngIf="onUpdate" 
+        className="mb-4 warning-bg-color" 
+        title="Update" 
+        [onClick]="onUpdate" 
+    />
+    <app-button 
+        *ngIf="onDelete" 
+        class="w-100"
+        className="danger-bg-color" 
+        title="Delete" 
+        [onClick]="onDelete" 
+    />
+</div>

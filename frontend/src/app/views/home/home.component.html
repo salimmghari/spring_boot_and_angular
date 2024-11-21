@@ -1,0 +1,27 @@
+<app-layout>
+    <app-title title="Notes" />
+    <app-note 
+        *ngFor="let note of notes" 
+        class="w-100"
+        [title]="note.title"
+        [body]="note.body"   
+        [onTitleChange]="onTitleChange(note.id)"
+        [onBodyChange]="onBodyChange(note.id)"
+        [onUpdate]="onUpdate(note.id)"
+        [onDelete]="onDelete(note.id)"    
+    />
+    <app-note 
+        class="w-100"
+        [title]="newNote.title"
+        [body]="newNote.body"
+        [onTitleChange]="onTitleChange(0)" 
+        [onBodyChange]="onBodyChange(0)" 
+        [onCreate]="onCreate()"
+    />
+    <app-button  
+        class="w-100"
+        className="danger-bg-color"
+        title="Logout"
+        [onClick]="onLogout()"
+    />
+</app-layout>

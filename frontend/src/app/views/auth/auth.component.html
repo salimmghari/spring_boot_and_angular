@@ -1,0 +1,21 @@
+<app-layout className="vh-100 overflow-y">
+    <app-form 
+        *ngIf="loginForm; else signupForm"
+        class="w-100"
+        title="Login"
+        link="Signup?"
+        [onLinkClick]="onSwapForm()"
+        [onClick]="onLogin()"
+        [fields]="loginFields"
+    />
+    <ng-template #signupForm>
+        <app-form 
+            class="w-100"
+            title="Signup"
+            [fields]="signupFields"
+            link="Login?"
+            [onLinkClick]="onSwapForm()"
+            [onClick]="onSignup()"
+        />
+    </ng-template>
+</app-layout>
