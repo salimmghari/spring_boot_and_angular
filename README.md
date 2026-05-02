@@ -21,13 +21,19 @@ Developed by Salim Mghari
 
 ---
 
-## Launch:
+### Launch:
+
+#### Backend:
 
 > - `cd backend/`
-> - `mvn clean install && mvn spring-boot:run`
+> - `mvn clean install`
+> - `mvn spring-boot:run`
+
+#### Frontend:
 
 > - `cd frontend/`
-> - `npm install && ng serve`
+> - `npm install`
+> - `ng serve`
 
 ---
 
@@ -35,7 +41,7 @@ Developed by Salim Mghari
 
 Proprietary License
 
-Salim Mghari 2024
+Salim Mghari 2026
 
 ---
 
