@@ -1,6 +1,6 @@
 # Project Spring Boot & Angular
 
-Web software
+Web application
 
 Technologies:
 - Java
@@ -25,9 +25,7 @@ Developed by Salim Mghari
 
 #### Backend:
 
-> - `cd backend/`
-> - `mvn clean install`
-> - `mvn spring-boot:run`
+- USE IntelliJ IDEA
 
 #### Frontend:
 
